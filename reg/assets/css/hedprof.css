@@ -1,0 +1,30 @@
+        @media(min-width: 992px){
+            .user_name{
+                margin-left:4.6vw;
+            }
+            .collapse{
+                line-height:unset!important;
+                font-size:1.2vw!important;
+                margin-left:30%;
+            }
+            .navbar-brand h1{
+                font-size:3.5vw!important;
+            }
+        }
+        @media(min-width: 768px){
+            .collapse{
+                font-size:50px;
+                line-height:100px;
+            }
+            .navbar-brand h1{
+                font-size:70px;
+            }
+            .navbar-toggler{
+                width:100px;
+                height:70px;
+            }
+            .navbar-toggler span{
+                width:70px;
+                height:50px;
+            }
+        }

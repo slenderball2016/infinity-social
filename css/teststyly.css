@@ -1,0 +1,88 @@
+.tests{
+
+}
+
+.testh1
+{
+  text-align: center;
+}
+   .letter {
+    color: red; /* Цвет символа */
+    font-size: 200%; /* Размер шрифта */
+   } 
+
+.math1
+{
+  font-family: Geneva, Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-size: 17px;  
+  color:Indigo;
+  text-decoration: none;
+}
+.nature1
+{
+  font-family: Impact, fantasy;
+  font-size: 15px;
+  font-size: 17px;  
+  color:#4B0082;
+  text-decoration: none;
+}
+
+.eanglish1
+{
+  font-family: Impact, fantasy;
+  font-size: 15px;
+  font-size: 17px;  
+  color:#4B0082;
+  text-decoration: none;
+}
+
+.ukr1
+{
+  font-family: Impact, fantasy;
+  font-size: 15px;
+  font-size: 17px;  
+  color:#4B0082;
+  text-decoration: none;
+}
+
+.footer
+{
+  height: 100px;
+  margin-top: 150px ;
+  background: rgb(129, 129, 129);
+}
+
+.namef
+{
+  opacity: 0.8;
+}
+
+.iconf
+{
+  margin: auto;
+  display: inline-block; 
+  align-items: center;
+  margin-top: 5px;
+}
+.textf
+{
+  margin: auto;
+  display: inline-block; 
+  align-items: center;
+  margin-top: 5px;
+  font-size: 25px;
+  font-family: Impact, fantasy;
+}
+.autort
+{
+  opacity: 0.4;
+  font-family: Impact, fantasy;
+  font-size: 15px;
+}
+.autor
+{
+  margin-top: 45px;
+margin: auto;
+text-align: center;
+}

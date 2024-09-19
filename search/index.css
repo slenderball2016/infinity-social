@@ -1,0 +1,87 @@
+
+   body {
+    height: 100vh;
+}
+
+@media (max-width: 930px) { 
+
+  .text{
+      font-size:15px;
+  } 
+    .dropbtn {
+    background-color: #3498DB;
+    color: white;
+    height: 10px;
+    font-size: 6px;
+    cursor: pointer;
+}
+}
+
+
+input {
+    margin: 10px 0;
+    padding: 10px;
+    border: unset;
+    border-bottom: 2px solid #e3e3e3;
+    outline: none;
+}
+
+.sumite {
+    background: #e3e3e3;
+    border: unset;
+    width:120px;
+    cursor: pointer;
+    height:30px;
+}
+
+body {
+    height: 100vh;
+    width:100%;
+    align-items: center;
+    justify-content: center;
+}
+html{
+width:100%;
+}
+a {
+    color: #7c9ab7;
+    text-decoration: none;
+}
+
+p {
+    margin: 10px 0;
+}
+.users-search {
+    border: 1px solid black;
+    max-width: 300px;
+    min-height: 30px;
+    margin-top: 15px;
+    border-radius: 30px;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(255, 255, 0);
+}
+
+a {
+   
+    color: #000000;
+    text-decoration: none;
+}
+
+.id {
+    opacity: 0;
+    height: 0px;
+    width: 1px;
+}
+
+button {
+    margin-bottom: 20px;
+    margin-right: 30px;
+    text-align: center;
+}
+
+.chat_a {
+    background-color: white;
+    color: blue;
+text-decoration: none;
+}

@@ -1,0 +1,117 @@
+        .row {
+            padding-bottom: 2vh;
+        }
+        
+        #tabs .tab {
+            display: inline-block;
+            padding: .5vh 1vw;
+            cursor: pointer;
+            position: relative;
+            z-index: 5;
+        }
+        
+        .tab {
+            width: 49%;
+            text-align: center;
+        }
+        
+        @media(max-width:768px){
+            .tab{
+                font-size:12px;
+            }
+        }
+        
+        @media(min-width:992px){
+            .tab{
+                font-size:21px!important;
+            }
+        }
+        
+        #tabs .whiteborder {
+            background: rgba(174, 202, 255, 0.507);
+            border: .1vw solid #707070;
+            border-radius: 3px solid 0 0;
+            border-bottom: none;
+        }
+        
+        #tabs .tabContent {
+            width: 100%;
+            border: .1vw solid #707070;
+            position: relative;
+            top: -.1vh;
+            z-index: 1;
+            padding: 1vw;
+            border-radius: 0 0 3px 3px;
+        }
+        
+        #tabs .hide {
+            display: none;
+        }
+        
+        #tabs .show {
+            display: block;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+        
+        a {
+            color: #7c9ab7;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        
+        p {
+            margin: 1vw 0;
+        }
+        
+        form {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+        }
+        
+        input {
+            margin: 1vw 0;
+            padding: 1vw;
+            border: unset;
+            border-bottom: .2vw solid #e3e3e3;
+            outline: none;
+        }
+        
+        button {
+            padding: 1vw;
+            border: unset;
+            cursor: pointer;
+        }
+        
+        .error {
+            border-bottom: .2vw solid #ff4332;
+        }
+        
+        .msg {
+            border: .2vw solid #ffa908;
+            border-radius: .3vw;
+            padding: 1vw;
+            text-align: center;
+            font-weight: bold;
+        }
+        
+        .none {
+            display: none;
+        }
+        
+        .logout {
+            color: #b7625c;
+        }
